@@ -96,5 +96,4 @@ if(digitalRead (ir_back) == 0 && flag2==0){flag2=1;
 exitCount++;
 if(exitCount == 2) { // Check if two cars have exited
   if(flag1==0){myservo.write(180); slot = slot+1;}
-  exitCount = 0; // Reset exit count
-  flag
+  exitCount = 0; // Reset exit count flag
